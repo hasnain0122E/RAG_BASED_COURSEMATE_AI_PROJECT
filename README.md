@@ -68,24 +68,6 @@ No hallucinated facts. No endless scrolling. Just answers, and the exact pages t
 
 ---
 
-## 🗂️ Project structure
-
-```
-rag-app/
-├── app.py                  # 🎨 Streamlit UI
-├── main.py                 # 🖥️ Original CLI chatbot
-├── databaseingestion.py    # 📥 Original ingestion script
-├── requirements.txt        # 📦 Dependencies
-├── .env                    # 🔑 Your API key (never commit this!)
-├── .streamlit/
-│   └── config.toml         # 🎨 Theme and upload settings
-├── document_loader/
-│   └── deeplearning.pdf    # 📘 Sample document
-└── chroma_db/              # 🗄️ Persistent store (CLI version only)
-```
-
----
-
 ## 🛠️ Getting started
 
 ### 1. Clone the repo
